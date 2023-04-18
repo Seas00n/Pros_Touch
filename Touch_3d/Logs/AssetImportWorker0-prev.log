@@ -1,0 +1,491 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16183 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+I:\Unity3D\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ProsthesisCode/Pros_Touch/Touch_3d
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53668
+Successfully changed project path to: D:/ProsthesisCode/Pros_Touch/Touch_3d
+D:/ProsthesisCode/Pros_Touch/Touch_3d
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23360] Host "[IP] 192.168.202.1 [Port] 0 [Flags] 2 [Guid] 4133984106 [EditorId] 4133984106 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MS1JVCUG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23360] Host "[IP] 192.168.202.1 [Port] 0 [Flags] 2 [Guid] 4133984106 [EditorId] 4133984106 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MS1JVCUG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 60.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path I:/Unity3D/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ProsthesisCode/Pros_Touch/Touch_3d/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8091 MB
+    Driver:   30.0.100.9864
+Initialize mono
+Mono path[0] = 'I:/Unity3D/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'I:/Unity3D/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'I:/Unity3D/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: I:/Unity3D/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: I:/Unity3D/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002131 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (474ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (344ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003156 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\ProsthesisCode\Pros_Touch\Touch_3d\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\ProsthesisCode\Pros_Touch\Touch_3d\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (767ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (88.1 KB). Loaded Objects now: 3533.
+Memory consumption went from 124.2 MB to 124.1 MB.
+Total: 2.359000 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.083400 ms MarkObjects: 1.972600 ms  DeleteObjects: 0.090400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62767.100444 seconds.
+  path: Assets/ConeCollider/Resources
+  artifactKey: Guid(1193ca1d107d1c64c9e82ec84b6c6c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ConeCollider/Resources using Guid(1193ca1d107d1c64c9e82ec84b6c6c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346896331da1eb08970efd0d80f13a89') in 0.006508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.202534 seconds.
+  path: Assets/ConeCollider/Resources/Model
+  artifactKey: Guid(e3b834323bab2084ea39701999e7fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ConeCollider/Resources/Model using Guid(e3b834323bab2084ea39701999e7fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff2cf2085312caa85ef245d7c3d35df') in 0.001982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.138429 seconds.
+  path: Assets/ConeCollider/Resources/Model/ConeCollider.fbx
+  artifactKey: Guid(1cec7e442949718499ea34a4e37ba8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ConeCollider/Resources/Model/ConeCollider.fbx using Guid(1cec7e442949718499ea34a4e37ba8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a5fb9860a4043ac9668334dfa2be65') in 0.167697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.470363 seconds.
+  path: Assets/ConeCollider/Resources/Model/Materials
+  artifactKey: Guid(384d0fac39864af4db13cd127e9c697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ConeCollider/Resources/Model/Materials using Guid(384d0fac39864af4db13cd127e9c697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2197a7de3fd2298cd2bfd1d594e358') in 0.002517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 224.382252 seconds.
+  path: Assets/ConeCollider/Resources/Image
+  artifactKey: Guid(e2b4974b3a93c9d41b3cbb8255461744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ConeCollider/Resources/Image using Guid(e2b4974b3a93c9d41b3cbb8255461744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1a9695faf8671265eded218185b195') in 0.002424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.879570 seconds.
+  path: Assets/Material/New Material.mat
+  artifactKey: Guid(f4958826c7563304ea3733ddee658af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/New Material.mat using Guid(f4958826c7563304ea3733ddee658af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83542f3b310734d183a568ff3508e91') in 0.025539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.105340 seconds.
+  path: Assets/Material/arrow.mat
+  artifactKey: Guid(f4958826c7563304ea3733ddee658af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/arrow.mat using Guid(f4958826c7563304ea3733ddee658af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8998e0eedbf4e5eaeac55d815ed87f') in 0.007513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 699.168361 seconds.
+  path: Assets/ConeCollider/Samples
+  artifactKey: Guid(85ad513c069a3bd4e8c8f4fef7fb202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ConeCollider/Samples using Guid(85ad513c069a3bd4e8c8f4fef7fb202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d148aab53fbd642a279d841e49231f') in 0.002207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 797.080360 seconds.
+  path: Assets/Shinyfish
+  artifactKey: Guid(adc6bdefbe549a444bc3cdff7bef084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish using Guid(adc6bdefbe549a444bc3cdff7bef084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59caaa5952a7312ccafda71a93dd32e5') in 0.002434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.084080 seconds.
+  path: Assets/Shinyfish/VectorArrows
+  artifactKey: Guid(fc0bb3da8697c477d9b72e4927014aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows using Guid(fc0bb3da8697c477d9b72e4927014aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3c443db17ae8e0d5feb79b545192a6') in 0.002005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.223974 seconds.
+  path: Assets/Shinyfish/VectorArrows/Scenes
+  artifactKey: Guid(ab45be2a6f0d34e0499c29a2a142b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Scenes using Guid(ab45be2a6f0d34e0499c29a2a142b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8679d18cfe7fde349564aac133df8cd3') in 0.002161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.357035 seconds.
+  path: Assets/Shinyfish/VectorArrows/Scenes/VectorArrowsDemo.unity
+  artifactKey: Guid(644ab669285124cb4a139667ab5681d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Scenes/VectorArrowsDemo.unity using Guid(644ab669285124cb4a139667ab5681d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ba1dc4e3f25bc63a9cc13cc2f1b2b8') in 0.002043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.197529 seconds.
+  path: Assets/Shinyfish/VectorArrows/Prefabs
+  artifactKey: Guid(f53fbdb54d3454369a45e15b20d2405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Prefabs using Guid(f53fbdb54d3454369a45e15b20d2405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ceb3c8fb3953714bda74ef4f024a44') in 0.002096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.443962 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes
+  artifactKey: Guid(467c1dd0ebc2e434bbebbe3b89b5aa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes using Guid(467c1dd0ebc2e434bbebbe3b89b5aa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6def36621aafb345e0cff27294e070') in 0.002308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.954674 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%
+  artifactKey: Guid(74d7d13c3e34c4ecfb73496cd0320d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05% using Guid(74d7d13c3e34c4ecfb73496cd0320d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac69eb3e222200d16cd9f251bf9defa') in 0.002144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.506444 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%
+  artifactKey: Guid(87d58f3ddccd0477ebdd5182365f5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20% using Guid(87d58f3ddccd0477ebdd5182365f5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e0b7bd7a47ff2b82415a17af2a7830') in 0.002619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.751633 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x
+  artifactKey: Guid(22502d0bb761a4ece98d8729c8aab271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x using Guid(22502d0bb761a4ece98d8729c8aab271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31868cd9440d13f44088c6aadfaee7c') in 0.002240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112338 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S003.obj
+  artifactKey: Guid(7cd06183d3469462485ab42ece81a34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S003.obj using Guid(7cd06183d3469462485ab42ece81a34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219902a8beced1deb26166418f2c40d1') in 0.025065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S005.obj
+  artifactKey: Guid(2b27e010ca0b84012a6689646c53b639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S005.obj using Guid(2b27e010ca0b84012a6689646c53b639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdde33540b289e919939bbd4d80c2ab4') in 0.027648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S008.obj
+  artifactKey: Guid(ec09ea3b2c03e44dabaac32849a51a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S008.obj using Guid(ec09ea3b2c03e44dabaac32849a51a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc7e6cd11d8be8b2066f4aa3fe7d12d') in 0.021953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S009.obj
+  artifactKey: Guid(adad2472f72c440fea2f80a4dfe32268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S009.obj using Guid(adad2472f72c440fea2f80a4dfe32268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35768a6de763043dfc14f18d776bf238') in 0.026939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S016.obj
+  artifactKey: Guid(aea842f93c7604d28b4cce2c5b441c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S016.obj using Guid(aea842f93c7604d28b4cce2c5b441c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbf845a145dd6a75694b84e34534f14') in 0.019057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S100.obj
+  artifactKey: Guid(626d7c519e0154bbfb6484a16b4d2abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S100.obj using Guid(626d7c519e0154bbfb6484a16b4d2abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe40d77bef521d38c6c9bdc6156de14') in 0.023003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S007.obj
+  artifactKey: Guid(8f23d14862e244d749db295268d8b663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S007.obj using Guid(8f23d14862e244d749db295268d8b663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d59978c82b99cb76710c2536a748a09') in 0.027420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S024.obj
+  artifactKey: Guid(90f0aca9dbb6849faba93d57e54aea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S024.obj using Guid(90f0aca9dbb6849faba93d57e54aea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d28fe100116cee820d26313f25ae958') in 0.026058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S014.obj
+  artifactKey: Guid(1ec5d79481865424c9225f77a294dc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S014.obj using Guid(1ec5d79481865424c9225f77a294dc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144d052a9a784c388b7b1d267e6f72fb') in 0.025513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S064.obj
+  artifactKey: Guid(4d8723374a01042c8a2b9ab9867f0b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S064.obj using Guid(4d8723374a01042c8a2b9ab9867f0b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88c0a097fb58636aa008bfd92444c4c') in 0.026009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S020.obj
+  artifactKey: Guid(4198fe2c567b6482fa24b95151b4e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 05%/Tip Length 20%/Tip Width 1.5x/arrow_SW05_TL20_TW15_S020.obj using Guid(4198fe2c567b6482fa24b95151b4e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7733ca32bea454ec46c48a257c50bda') in 0.023003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.244690 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%
+  artifactKey: Guid(0b2af90a3aa0b4267b88b20be99c85b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08% using Guid(0b2af90a3aa0b4267b88b20be99c85b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbe71692dd0d068fa35e486f9ba7898') in 0.002432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.347900 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%
+  artifactKey: Guid(9aa0a101cf52e470a9e192a91b3159ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50% using Guid(9aa0a101cf52e470a9e192a91b3159ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67559bdfed4e79bc9bac356b38b364ed') in 0.002326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.140389 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x
+  artifactKey: Guid(8cb8f99c66d734ec6af7dcb9d611d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x using Guid(8cb8f99c66d734ec6af7dcb9d611d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4aa2296ee7958f08b073d9697aaf75f') in 0.002242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074737 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S003.obj
+  artifactKey: Guid(da04a3fa219c24feeafcd40c9ae855d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S003.obj using Guid(da04a3fa219c24feeafcd40c9ae855d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e64d527cb897150a226765f6592bb53') in 0.018963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S005.obj
+  artifactKey: Guid(09775d97bb5f7453e90a021c7ddc4232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S005.obj using Guid(09775d97bb5f7453e90a021c7ddc4232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20d504a615debbfbeb0fc03925b1463') in 0.021900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S009.obj
+  artifactKey: Guid(0aa868c4e45e04a00b23a3d795f13cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S009.obj using Guid(0aa868c4e45e04a00b23a3d795f13cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea13e51537a0a82d16767e7a3136e97') in 0.022329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S032.obj
+  artifactKey: Guid(d81ec9c71619e4de2a42479b2e134d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S032.obj using Guid(d81ec9c71619e4de2a42479b2e134d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a95c7508bc7cb4e062e6c177dbfbbbc') in 0.018406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S014.obj
+  artifactKey: Guid(473e24a593ac349cd91ed21bad168707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S014.obj using Guid(473e24a593ac349cd91ed21bad168707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9a8c82e7cf787b91ef386289239050') in 0.023845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S012.obj
+  artifactKey: Guid(8c523b56a62ba4c59b48396a12e15f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S012.obj using Guid(8c523b56a62ba4c59b48396a12e15f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed330e3c9e17b7c433e36c8c6fb5849e') in 0.019961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S016.obj
+  artifactKey: Guid(d5e0f8457dd094cf6aa37e97bda544dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S016.obj using Guid(d5e0f8457dd094cf6aa37e97bda544dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805bb0c2222be36aa500f713fdc5f57e') in 0.021225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S010.obj
+  artifactKey: Guid(c26458e73dcc94cdbb171217f2c83a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 08%/Tip Length 50%/Tip Width 2.5x/arrow_SW08_TL50_TW25_S010.obj using Guid(c26458e73dcc94cdbb171217f2c83a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed99f79d2542f8c64c3abcfb08256cd3') in 0.020165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.842991 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%
+  artifactKey: Guid(077e240c2a73d46f28c5b02ac1ae7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15% using Guid(077e240c2a73d46f28c5b02ac1ae7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effe733ec499d7b5fe19e78c429b90bb') in 0.002258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.709674 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%
+  artifactKey: Guid(e56437443bfd34014823e984c92af372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50% using Guid(e56437443bfd34014823e984c92af372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1f39243aed19b56fc4c3eb2f2e67d4') in 0.001931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.782204 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x
+  artifactKey: Guid(f3294543a147348d680f0e6c73bda277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x using Guid(f3294543a147348d680f0e6c73bda277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ca1a420f968024987e0bb6eb71b35f') in 0.002027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055102 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S003.obj
+  artifactKey: Guid(7e7d4d2088672453aa07cd221d53f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S003.obj using Guid(7e7d4d2088672453aa07cd221d53f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bd2dc03c3844e83a74fd905c6e6e0c') in 0.018319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S024.obj
+  artifactKey: Guid(904ecadb4b5b74dae87a188a444bb55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S024.obj using Guid(904ecadb4b5b74dae87a188a444bb55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf9490776e212a41d72c04a6d00f1ce') in 0.030540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S064.obj
+  artifactKey: Guid(85529eea219aa4ae29890a60995ab629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S064.obj using Guid(85529eea219aa4ae29890a60995ab629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682b00f745b754c66037d52f78013af5') in 0.025768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S016.obj
+  artifactKey: Guid(29dbce3ff894b45c683679ffa7fc7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S016.obj using Guid(29dbce3ff894b45c683679ffa7fc7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45d7e9746fb199931c93fdc5c7c2c70') in 0.024328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S010.obj
+  artifactKey: Guid(34fbdb2f8d2da4a36b0f1a533bf8c284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S010.obj using Guid(34fbdb2f8d2da4a36b0f1a533bf8c284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4be432c11ac43eae48b38c0c60bfefc') in 0.023085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S020.obj
+  artifactKey: Guid(ba62771bbde3748aa80d47b372a5e6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S020.obj using Guid(ba62771bbde3748aa80d47b372a5e6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8063987c7ae2924eb2d4f20d52d1902e') in 0.027152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S006.obj
+  artifactKey: Guid(7b445fab093e24630be99fda86674600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S006.obj using Guid(7b445fab093e24630be99fda86674600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64274f04490347792e883077ea598b8d') in 0.022516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S100.obj
+  artifactKey: Guid(6d7cd658fefec4711b0e686e0dab9cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S100.obj using Guid(6d7cd658fefec4711b0e686e0dab9cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a94a41f1b94e1159a6545493954b073') in 0.026126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.191044 seconds.
+  path: Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S064.obj
+  artifactKey: Guid(85529eea219aa4ae29890a60995ab629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shinyfish/VectorArrows/Meshes/Shaft Width 15%/Tip Length 50%/Tip Width 2.5x/arrow_SW15_TL50_TW25_S064.obj using Guid(85529eea219aa4ae29890a60995ab629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f83ee440951eaaf7c9c5778a279197') in 0.024208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.866733 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png
+  artifactKey: Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png using Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d40735e470d2363137610dbffbcb05') in 0.191953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
+  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b015c9d5bdadc3317989916f713e5cc3') in 0.009093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d1f075d98d33dc2c1ed45056eb5a') in 0.006823 seconds 
